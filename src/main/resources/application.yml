@@ -1,0 +1,12 @@
+#tag::portNineThousand[]
+server:
+  port: 9000
+#end::portNineThousand[]
+
+
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
